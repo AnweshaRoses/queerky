@@ -1,0 +1,37 @@
+
+
+figure;
+t=0:0.001:pi;
+x=8*cos(t);
+y=8*sin(t);
+fill(x,y,'r');
+hold on;
+x=7*cos(t);
+y=7*sin(t);
+patch(x,y,[1 0.5 0]);
+hold on;
+x=6*cos(t);
+y=6*sin(t);
+fill(x,y,'y');
+hold on;
+x=5*cos(t);
+y=5*sin(t);
+fill(x,y,'g');
+hold on;
+x=4*cos(t);
+y=4*sin(t);
+patch(x,y,[  0.5843    0.8157    0.9882]);
+hold on;
+x=3*cos(t);
+y=3*sin(t);
+fill(x,y,'b');
+hold on;
+x=2*cos(t);
+y=2*sin(t);
+patch(x,y,[0.4039    0.0078    0.3686]);
+t=0:0.01:pi;
+x=cos(t);
+y=sin(t);
+fill(x,y,'w');
+plot([-0 1],[0 0],'w');
+axis equal;
